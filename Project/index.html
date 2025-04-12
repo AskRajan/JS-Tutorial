@@ -20,6 +20,16 @@
         console.log(mainDiv.children[index].innerHTML)
         
     }
+    mainDiv.children[1].style.color = "red"
+    console.log(mainDiv.childNodes)
 
+    const createDiv = document.createElement('h1')
+    console.log(createDiv)
+    createDiv.className = "CreateH1"
+    createDiv.id = "crH1"
+    // createDiv.setAttribute('class', 'Gen Title')
+    createDiv.innerText = "I am H1"
+    document.body.appendChild(createDiv)
+    
 </script>
 </html>
